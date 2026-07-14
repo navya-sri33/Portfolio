@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPortfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar">
+        <a href="#home" class="logo">CyberDev</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--section-->
+    <section id="Home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, its Me</h3>
+            <h3>Navya Sri Koruprolu</h3>
+            <h1>Full-Stack Developer</h1>
+            <p>Building digital experience that merge connectivity with technology</p>
+            <p class="highlight">Specializing in modern web development and build API's</p>
+            <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile" class="profile-img">
+        </div>
+    </section>
+
+    <!--resume-->
+    <section id="resume" class="resume-section">
+        <h2 class="section-title">Resume</h2>
+        <p class="resume-text">
+            Click the button below to view my resume
+        </p>
+        <button id="resumeBtn" class="resume-btn">
+             View Resume
+        </button>
+    </section>
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="assests/Navyasri_resume.pdf" class="resume-frame"></iframe>
+        </div>
+    </div>
+
+    <!--skills-->
+    <section id="skills" class="skills">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>React, Vue.js, HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Backend Developement</h3>
+                <p>Node.js, Python, MongoDB, PostgreSQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Jest, Prototyping, User testing</p>
+            </div>
+        </div>
+    </section>
+     <!--projects-->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <i class=""></i>
+                <h3>E commerce project</h3>
+                <p>skills i have done</p>
+            </div>
+            <div class="project-card">
+                <i class=""></i>
+                <h3>angular project</h3>
+                <p>skills i have done</p>
+            </div>
+            <div class="project-card">
+                <i class=""></i>
+                <h3>Ad project</h3>
+                <p>skills i have done</p>
+            </div>
+        </div>
+    </section>
+    <!---footer-->
+<footer>
+    <p>&copy; 2026 CyberDev.All rights reserved.</p>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
